@@ -15,6 +15,8 @@ body {
     color: #616161;
 }
 
+/* everything on navigation menu */
+
 nav {
     padding: 20px 0;
 }
@@ -50,9 +52,13 @@ nav {
     display: none;
 }
 
+
 .nav-inner-list-item {
     
 }
+
+/* everything for various parts of the page */
+
 
 section {
     padding-top: 80px;
@@ -187,13 +193,15 @@ small {
     padding: 30px;
 }
 
-/*
+/* voor oefening tijdens les - niet in gebruik
 .titelrand{
     padding: 30px;
     border-style: dotted;
     border-width: 5px;
     border-color: red; 
 }*/
+
+/* knoppen in header */
 
 button {
     padding: 12px 30px;
@@ -227,6 +235,8 @@ button a:active {
     color: #212121;
 }
 
+/* knoppen benende hoofdpagina */
+
 .button-inner {
     font-size: 14px;
     background: white;
@@ -255,6 +265,8 @@ button a:active {
     color: rgb(241,101,40);
 }
 
+/* Qien Logo */
+
 .logo-first {
     display: block;
     font-size: 24px;
@@ -267,6 +279,8 @@ button a:active {
     font-weight: 900;
     color:rgb(14,174, 137);
 }
+
+/* clickbare boxes beneden op hoofdpagina*/
 
   .box-flex {
     display: flex;
@@ -289,6 +303,8 @@ button a:active {
  color:red;
  }
 
+ /* kolommen op html, css, js pagina's */
+
  .column {
     column-count: 3;
     column-gap: 50px;
@@ -299,6 +315,8 @@ button a:active {
       width: 100%;
     }
   }
+
+  /* everything for the table layout */
 
   table {
     border-collapse: collapse;
@@ -318,4 +336,62 @@ button a:active {
   }
   
   tr:nth-child(even) {background-color: #f2f2f2;}
+
+  /*experiments for quizes.html*/
   
+.dropbtn {
+    
+    background:none;    
+    color: #616161;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 16px;    
+    border: none;    
+    border-style: none;
+    border-radius: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover {
+
+    background:none;
+    color: #212121;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    font-size: 14px;
+    font-weight: 200;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+    color: #212121;
+    background-color:none;
+}
